@@ -3,10 +3,13 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body {
 	height: 100vh;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding-top: 30vh;
 }
+
 header {
 	background-image: url('../images/runner3.jpg');
 	position: fixed;
@@ -19,7 +22,7 @@ header {
 	/* display: flex;
 	justify-content: flex-end;
 	align-items: flex-end; */
-	padding-top: 90px;	
+	padding-top: 90px;
 	padding-left: 50px;
 	background-repeat: no-repeat;
 }
@@ -28,9 +31,33 @@ header h1 {
 	/* position: absolute; */
 	/* bottom: 30px;
 	right: 100px; */
-margin-bottom: 20px;
+	margin-bottom: 20px;
+	font-size: 3rem;
+	color: darkgreen;
 }
 
 main {
-	margin-top: 30vh;
+	margin: 30vh auto 0 auto;
+	margin: 0 auto;
+	width: 80%;
+}
+
+section {
+	margin-top: 1rem;
+}
+
+section:first-of-type {
+	margin-top: 3rem;
+}
+
+section h2 {
+	border-bottom: 1px solid orange;
+	margin-bottom: 1rem;
+}
+
+section.products img {
+	width: 200px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 10px;
 }
